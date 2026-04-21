@@ -22,7 +22,6 @@ const CartItemBlock: React.FC<CartItemProps> = ({
   count,
   imageUrl,
 }) => {
-  console.log(type, 'type');
   const dispatch = useAppDispatch();
 
   const onClickPlus = () => {

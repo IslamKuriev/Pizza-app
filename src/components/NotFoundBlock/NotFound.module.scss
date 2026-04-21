@@ -1,13 +1,24 @@
 .root {
-  padding: 100px;
+  padding: 40px 16px;
   text-align: center;
   max-width: 750px;
   margin: 0 auto;
   span {
-    font-size: 64px;
+    font-size: 48px;
+  }
+
+  @media (min-width: 768px) {
+    padding: 80px;
+    span {
+      font-size: 64px;
+    }
   }
 }
 
 .description {
-  font-size: 22px;
+  font-size: 18px;
+
+  @media (min-width: 768px) {
+    font-size: 22px;
+  }
 }

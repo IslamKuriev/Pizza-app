@@ -1,7 +1,8 @@
 @import '../variables';
 
 .product-block {
-  width: 280px;
+  width: 100%;
+  max-width: 280px;
   text-align: center;
   margin-bottom: 65px;
 
@@ -10,7 +11,9 @@
     justify-content: center;
   }
   &__image {
-    width: 260px;
+    width: 100%;
+    max-width: 260px;
+    height: auto;
   }
 
   &__title {
@@ -57,6 +60,8 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 20px;
+    gap: 10px;
+    flex-wrap: wrap;
   }
 
   &__price {
@@ -64,5 +69,6 @@
     font-size: 22px;
     line-height: 27px;
     letter-spacing: 0.015em;
+    white-space: nowrap;
   }
 }

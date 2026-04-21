@@ -7,8 +7,9 @@
 .input {
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 12px 20px;
-  width: 400px;
-  padding-left: 42px;
+  width: 100%;
+  max-width: 400px;
+  padding-left: 48px;
   border-radius: 10px;
   font-size: 16px;
 
@@ -16,9 +17,10 @@
     border: 1px solid rgba(0, 0, 0, 0.2);
   }
   @media (max-width: 452px) {
-    width: 300px;
-    margin-left: 10px;
+    max-width: 300px;
+    margin-left: 0;
     margin-top: 10px;
+    padding-left: 50px;
   }
 }
 .icon {
@@ -27,10 +29,10 @@
   height: 22px;
   top: 12px;
   opacity: 0.4;
-  left: 14px;
+  left: 16px;
   @media (max-width: 452px) {
     top: 21px;
-    left: 24px;
+    left: 16px;
   }
 }
 

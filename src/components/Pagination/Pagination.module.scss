@@ -27,7 +27,12 @@
       }
     }
   }
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+
   @media (max-width: 452px) {
-    margin-left: 35px;
+    justify-content: center;
+    margin-left: 0;
   }
 }
